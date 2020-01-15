@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='CMU_G35_8080288'
