@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CMU_G35_8080288</string>
+    <string name="api_key" translatable="false">AIzaSyAUYikFf2_OcimkQAis7hcasp2XvMb4tnI</string>
 </resources>
