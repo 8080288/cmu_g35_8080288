@@ -12,15 +12,34 @@
     <include
         layout="@layout/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigator"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:fitsSystemWindows="true"
         app:menu="@menu/main_menu"/>
 
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pharmacies_map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            map:cameraZoom="13"
+            map:mapType="normal"
+            map:uiCompass="false"
+            map:uiRotateGestures="true"
+            map:uiTiltGestures="true"
+            map:uiZoomControls="false"
+            map:uiZoomGestures="true"
+            />
+    </FrameLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

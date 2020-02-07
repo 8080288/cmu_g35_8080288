@@ -3,7 +3,9 @@
     <string name="api_key" translatable="false">AIzaSyAUYikFf2_OcimkQAis7hcasp2XvMb4tnI</string>
 
     <!-- menu opt -->
-
     <string name="medication">Medicação</string>
     <string name="pharmacies">Farmácias</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
